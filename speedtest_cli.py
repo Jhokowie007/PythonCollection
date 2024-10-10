@@ -54,3 +54,5 @@ def cek_kecepatan_internet():
 # Memanggil fungsi untuk mengecek kecepatan internet
 if __name__ == "__main__":
     cek_kecepatan_internet()
+else:
+    input("it looks like you're not running it as a main program...\n\nPress the enter key to exit...")
